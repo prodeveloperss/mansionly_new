@@ -1,0 +1,760 @@
+body { padding:0px; }
+.campaignheader-menu {
+	width:100%;
+	display:block;
+	text-align:center;
+}
+.campaignheader-menu ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+.campaignheader-menu ul li {
+  color: #000000;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 30px;
+  position: relative;
+  text-transform: uppercase;
+}
+.campaignheader-menu ul li a {
+	color:#000;
+	font-size:14px;
+}
+.campaignheader-menu ul li a:hover {
+	color:#666;
+	text-decoration:none;
+}
+.campaignheader-menu ul li:last-child::after {
+	content:'';
+	display:none;
+}
+.campaignheader-menu ul li::after {
+	background: #cccccc none repeat scroll 0 0;
+	content: "";
+	height: 25px;
+	position: absolute;
+	right: -31px;
+	top: 1px;
+	width: 1px;
+}
+.logoC {
+  display: inline-block;
+  margin: 0 42px 0 0px;
+  padding: 15px 0;
+  vertical-align: middle;
+}
+.logoC img { width:215px; }
+.campaign_banner {
+	background:#efefef;
+	padding:15px 0px;
+}
+.CmpBanerImg { text-align:center; }
+.CmpBanerImg img {
+	display: inline-block;
+	height: 500px;
+	object-fit: cover;
+	width: 770px;
+}
+
+.campaignheader-menu ul li:last-child {
+  margin-right: 0;
+}
+.campaign_header { padding:0px 0px 2px 0px; }
+.cmpHeading {
+	width:100%;
+	text-align:center;
+}
+
+
+.Howitright { float:right; padding:0px 15px; width:50%;}
+.Howitleft { float:left; padding:0px 15px; width:50%;} 
+.cmpHeading h2 {
+	display:inline-block;
+	font-size:16px;
+	color:#000;
+	margin:0px 0px 15px 0px;
+	text-transform:uppercase;
+	letter-spacing:1.5px;
+}
+.campaign_Aboutus {
+	background:#fff;
+	padding:50px 0px;
+}
+.aboutCmap {
+	padding: 0 30px;
+	text-align: center;
+}
+.abtCmapProImg {
+	border-radius: 50%;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+}
+.abtCmapProImg img {
+	border-radius: 50%;
+	height: 200px;
+	object-fit: cover;
+	width: 200px;
+}
+.abtCmapProtext {
+	overflow: hidden;
+	padding: 45px 0 0 40px;
+	display: inline-block;
+	text-align:left;
+	vertical-align:top;
+}
+.abtCmapProtext h2 {
+	display:block;
+	font-size:22px;
+	color:#000;
+	margin:0px 0px 20px 0px; 
+	
+}
+.abtCmapProtext p {
+	font-size:16px;
+	color:#000;
+	margin:0px 0px 0px 0px;
+}
+.Campa-HowITBG {
+	background: url(../../../img/campaign/landing_page_1/howitbg.jpg) no-repeat;
+ /*background: url(../img/howitbg.jpg) no-repeat;*/
+	width: 100%;
+	min-height: 510px;
+	background-attachment:fixed;
+	background-size:cover;
+	padding:20px 0px;
+}
+.Campa-HowITBG ul {
+	margin:0px -15px;
+	padding:0px;
+	list-style-type:none;
+ counter-reset: headings;
+}
+.Campa-HowITBG ul li {
+    float:left;
+    width:50%;
+    padding:0px 15px;
+    text-align:center;
+    position:relative;
+}
+
+.Campa-HowITBG ul li .C-howit-box::before {
+	background: #464646 none repeat scroll 0 0;
+	border: 2px solid #b3b3b3;
+	border-radius: 50%;
+	content: counter(headings, decimal);
+	counter-increment: headings;
+	height: 30px;
+	left: 1px;
+	line-height: 28px;
+	margin: 0 auto;
+	position: absolute;
+	/* right: 0; */
+	text-align: center;
+	top: 20px;
+	width: 30px;
+	z-index: 1;
+	color: #b3b3b3;
+}
+
+.C-howit-box {
+	width:135px;
+	text-align:center;
+	padding:10px 0px;
+ 	display:inline-block;
+  	position:relative;
+}
+.C-howit-box h3 {
+    display:block;
+    font-size:14px;
+    color:#fff;
+    margin:10px 0px 0px 0px;
+    padding:0px 10px;
+}
+.Campa-HowITBG ul li p {
+	color: #464646;
+	display: block;
+	font-size: 15px;
+	line-height: 20px;
+	margin: 0;
+	padding: 0 0px;
+}
+.howItCircle {
+    background: #464646 none repeat scroll 0 0;
+    border-radius: 50%;
+    box-shadow: 0 3px 5px #333333;
+    display: table-cell; 
+    vertical-align:middle;
+    height: 135px;
+    width: 135px;
+    margin:0px 0px 30px 0px;
+}
+.videoBgHowit { margin:40px 0px;}
+
+/*.videoBgHowit {
+	background: url("../img/howitvdo-bg.jpg") no-repeat scroll center center / cover;
+	display: block;
+	position: relative;
+	width: 100%;
+	z-index: 0;
+ 
+}*/
+
+.C-howit-box img{ width:50px;}
+
+
+.Campa-AboutUs {
+	display:block;
+	padding:40px 0px;
+	background:#fff;
+}
+.Campa-AboutUs ul {
+	margin:0px -15px;
+	padding:0px;
+	list-style-type:none;
+	font-size:0px;
+}
+.Campa-AboutUs ul li {
+	float:left;
+	width:33.33%;
+	padding:0px 15px;
+}
+.aboutUS-bx {
+	height: 382px;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+.aboutUS-bx img {
+	width: 100%;
+	height:100%;
+	object-fit:cover;
+}
+.abtusBtn {
+	line-height:50px;
+	width:100%;
+	background:#efefef;
+	font-size:20px;
+	color:#000;
+	text-align:center;
+	display:inline-block;
+	margin-top:10px
+}
+.abtusBtn:hover, .abtusBtn:focus {
+	background:#363636;
+	color:#fff;
+	text-decoration:none;
+}
+.abtabs {
+	background:#e5e3e3;
+	width:100%;
+	display:block;
+	padding:40px 0px 30px 0px;
+	min-height:379px;
+}
+.abtabs a {
+	display:inline-block;
+	font-size:18px;
+	text-transform:uppercase;
+	color:#000;
+	border:solid 1px #686565;
+	line-height:32px;
+	text-align:center;
+	padding:0px 10px;
+	margin:0px 5px 10px 5px;
+}
+.Abt-txt {
+	text-align:center;
+	padding:0px 0px 45px 0px;
+}
+.Abt-txt h2 {
+	font-size:16px;
+	color:#000;
+	margin:0px 0px 10px 0px;
+	letter-spacing:2px;
+}
+.Abt-txt p {
+	font-size:16px;
+	color:#000;
+	margin:0px 0px 0px 0px;
+	padding:0px 160px;
+	letter-spacing:0.5px;
+}
+.abtabs a:hover, .abtabs a:focus {
+	background:#fff;
+	text-decoration:none;
+}
+.ConnectForm {
+	background:#f7f5f6;
+	box-shadow: 0 0 5px #999999;
+	padding:20px 0px 20px 0px;
+	display:none;
+	position:relative;
+	display:none;
+	margin:0px auto;
+	width:100%;
+}
+.ConnectForm h3 {
+	color: #666666;
+	font-size: 13px;
+	margin: 0 0 27px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.ConnectForm .form-control {
+	background: #dfdfdf none repeat scroll 0 0;
+	border: 1px solid rgba(0, 0, 0, 0);
+	border-radius: 0;
+	box-shadow: none;
+	margin-bottom: 15px;
+	color:#888;
+	letter-spacing:1px;
+}
+.ConnectUsBtn {
+	padding:15px 0px;
+	width:100%;
+	/*background:#483627;*/
+	font-size:16px;
+	color:#fff;
+	text-align:center;
+	display:inline-block;
+	margin-top:0px;
+	border:0px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	transition:all 0.2s linear 0;
+}
+.ConnectUsBtn:hover, .ConnectUsBtn:focus {
+	/*background:#7c6755;*/
+	color:#fff;
+	text-decoration: none;
+}
+.ConnectUsBtn {
+	background:#0392cf;
+	font-size:16px;
+	color:#fff;
+}
+.ConnectUsBtn:hover, .ConnectUsBtn:focus {
+	background:#27a2cc;
+	color:#fff;
+}
+.ConnectForm h2 {
+  font-size: 16px;
+  letter-spacing: 4px;
+  margin: 0 0 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#ConnectBtnhide {
+	color: #999999;
+	display: inline-block;
+	font-family: verdana;
+	font-size: 13px;
+	line-height: 27px;
+	position: absolute;
+	right: 0px;
+	text-align: center;
+	top: -5px;
+	transition: all 0s linear 0s;
+	transition:none;
+}
+#ConnectBtnhide:hover { color: #000000; }
+.ConnectUsBtn:focus {
+	background:#f7f5f6;
+	color: #000000;
+}
+.stickCT {
+	position: -webkit-sticky;
+	position: -ms-sticky;
+	position: fixed;
+	bottom: 0px;
+	width:100%;
+ 	z-index:2;
+}
+.stickCTBtn {
+	position: -webkit-sticky;
+	position: -ms-sticky;
+	position: sticky;
+	bottom: 0px;
+}
+.ConnectFormOpen .ConnectForm { display:block; }
+.CampaignFooter .socials {
+	border-left: none;
+	padding: 5px 0;
+}
+.CampaignFooter { background:#efefef; }
+.CampaignFooter ul.footermenu li a {
+	color: #333333;
+	display: block;
+	font-size: 16px;
+	transition: all 0.3s linear 0s;
+}
+.CampaignFooter .copyright {
+	color: #666666;
+	font-size: 12px;
+	padding: 10px 0 0;
+	text-align: center;
+}
+.stmap a {
+	color: #efefef;
+	display: inline-block;
+	font-size: 5px;
+}
+/*.Campa-connectUS  .container{ width:100%; padding:0px;}*/
+
+#ConnectBtnhide img { width:16px; }
+.ConnectUsBtn.iconchnage {
+	background: #f7f5f6 none repeat scroll 0 0;
+	box-shadow:0px -5px 3px #e5e5e5;
+	color: #000000;
+}
+.campaign_loader {
+	background: rgba(0, 0, 0, 0) url("../../../img/loading_spinner_small01.gif") no-repeat scroll 0 0;
+	bottom: 53px;
+	height: 34px;
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	width: 32px;
+}
+
+
+.ConnectForm1 .form-control {
+  background: #dfdfdf none repeat scroll 0 0;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 0;
+  box-shadow: none;
+  color: #888888;
+  letter-spacing: 1px;
+  margin-bottom: 15px; 
+}
+
+.sticky-header1  .ConnectForm1 {  }
+.sticky-header1  .ConnectForm { display:none; opacity:0;  }
+.ConnectForm1 {
+  background: #f7f5f6 none repeat scroll 0 0;
+  padding: 20px 0 0;
+  position: relative;
+  transition: all 0.5s linear 0s;
+}
+.ConnectForm1 h3{ text-align:center;  text-transform:uppercase; font-size:14px; margin:0px 0px 10px 0px; letter-spacing:3px;}
+.ConnectForm1 h2{ text-align:center;  text-transform:uppercase; font-size:16px; margin:0px 0px 10px 0px; letter-spacing:4px;}
+
+.ConnectUsBtn:focus {
+  background: #0392cf  none repeat scroll 0 0;
+  color: #fff;
+}
+
+.Conn #ConnectBtn1{ display:none;}
+
+.btnWrapCon { margin:20px 0px 0px 0px;} 
+
+.Campa-connect.sticker.clearfix.stickCTm { display:none;}
+ 
+ .stickCTm {
+	position: -webkit-sticky;
+	position: -ms-sticky;
+	position: sticky;
+	bottom: 0px;
+	width:100%;
+}
+
+
+ @media only screen and (max-width :1170px) {
+/*.howItCircle {    height: 180px;    line-height: 180px;    width: 180px;}*/
+.Campa-HowITBG ul li {    padding: 0px 8px;}
+.Campa-HowITBG { min-height:auto;}
+.aboutUS-bx img {    object-fit: contain;}
+.container {    position: relative; width:100%;}
+ }	
+
+ @media only screen and (max-width :767px) {
+.abtCmapProtext h2, .abtCmapProtext p {
+  text-align: center;
+} 
+
+.campaign_banner {
+  padding: 15px 0;
+}
+.Campa-connect.sticker.clearfix.stickCTm { display:none;}
+#ConnectBtn1 { display:block;}
+.ConnectForm1 .form-control { margin-bottom:10px;}
+.ConnectForm1 h3 {
+    font-size: 14px;
+    letter-spacing: 1px
+
+}
+
+
+.Howitright {  width:100%; padding:0px; }
+.Howitleft {  width:100%; padding:0px;}  
+
+.videoBgHowit iframe {
+
+	margin: 0 auto;
+	width: 100%;
+}
+
+.videoBgHowit {
+	margin: 20px -15px;
+}
+.Campa-HowITBG ul li::before { }
+.Campa-HowITBG ul li {
+	width: 50%;
+}
+.howItCircle { width:125px; height:125px;}
+.Campa-HowITBG ul li p { font-size:14px;}
+.C-howit-box { width:125px;}
+
+ }
+ 
+ @media only screen and (max-width :480px) {
+.logoC img { width: 200px; }
+.campaignheader-menu ul li {
+	margin: 0 10px 10px 0;
+	position: relative;
+}
+.campaignheader-menu ul li a { font-size: 14px; }
+.logoC {
+	display: inline-block;
+	padding: 15px 0;
+	margin:0px;
+}
+.campaignheader-menu ul li::after {
+	content:'';
+	display:none;
+}
+.campaign_header { padding: 0 0 10px; }
+.cmpHeading h2 { font-size: 18px; }
+.CmpBanerImg img {
+	display: inline-block;
+	width: 100%;
+}
+.aboutCmap { padding: 0 0px; }
+.abtCmapProtext {
+	overflow: visible;
+	padding: 30px 0 0 30px;
+}
+.abtCmapProtext {
+	float: left;
+	overflow: visible;
+	padding: 15px 0;
+	width: 100%;
+}
+.Campa-HowITBG ul li {
+	float: left;
+	padding: 0 15px 15px;
+	width: 50%;
+}
+.Abt-txt p {
+	margin: 0;
+	padding: 0;
+}
+.Campa-AboutUs ul li {
+	float: left;
+	padding: 0 15px 15px;
+	width: 100%;
+}
+.abtabs a { font-size:15px; }
+.ConnectForm .form-control { margin-bottom: 10px; }
+#ConnectBtnhide {
+	right: 10px;
+	top: 5px;
+}
+.ConnectForm h3 { font-size: 20px; }
+.abtCmapProImg img {
+	height: 100%;
+	width: 100%;
+}
+.abtCmapProImg {
+	height: 160px;
+	width: 160px;
+}
+.ConnectForm { width:100%; padding:padding:20px 20px
+}
+.CmpBanerImg img {
+	display: inline-block;
+	height: 500px;
+	object-fit: cover;
+	width: 100%
+}
+.aboutUS-bx img { object-fit: contain; }
+#ConnectBtnhide { top: -45px; }
+.Campa-connectUSfix.sticker.clearfix.stickCT {
+  display: none;
+}
+.CampaignFooter ul.footermenu li {
+  margin: 0 12px;
+}
+
+
+ 
+ 
+}
+ @media only screen and (min-device-width : 481px) and (max-device-width : 767px) {
+.Campa-HowITBG ul li {
+	float: left;
+	padding: 0 15px 15px;
+	width:50%;
+}
+.Abt-txt p {
+	margin: 0;
+	padding: 0;
+}
+.Campa-AboutUs ul li {
+	float: left;
+	padding: 0 15px 15px;
+	width: 100%;
+}
+
+#ConnectBtnhide {
+	right: 10px;
+	top: 10px;
+}
+.abtCmapProImg img {
+	height: 100%;
+	width: 100%;
+}
+.abtCmapProImg {
+	height: 160px;
+	width: 160px;
+}
+.abtCmapProtext { padding: 10px 0 0 30px; }
+.logoC {
+	display: inline-block;
+	padding: 15px 0;
+}
+.campaign_header { padding: 0 0 20px; }
+.ConnectForm {
+	width:100%;
+	padding:20px 20px
+}
+.ConnectForm .form-control { margin-bottom: 10px; }
+.CmpBanerImg img {
+	display: inline-block;
+	height: 500px;
+	object-fit: cover;
+	width: 100%
+}
+.aboutUS-bx img { object-fit: contain; }
+#ConnectBtnhide { top: -45px; }
+.Campa-connectUSfix.sticker.clearfix.stickCT{
+  display: none;
+}
+}
+
+ @media only screen and (min-device-width : 768px) and (max-device-width : 991px) {
+.Campa-AboutUs ul {
+	font-size:0px;
+	text-align:center;
+}
+.Campa-AboutUs ul li {
+	float: none;
+	padding: 0 15px 15px;
+	width: 50%;
+	display:inline-block;
+	vertical-align:top;
+}
+.abtabs {
+	min-height: inherit;
+	padding: 18px 0;
+	width: 100%;
+}
+.Campa-HowITBG ul li {
+	float: left;
+	padding: 0 15px 15px;
+	width:50%;
+}
+.CmpBanerImg img {
+	display: inline-block;
+	max-width: 100%;
+}
+.container { width: 100%; }
+.C-howit-box {  }
+.videoBgHowit iframe {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.ConnectForm {
+	width:100%;
+	padding:20px 20px;
+}
+.CmpBanerImg img {
+	display: inline-block;
+	height: 500px;
+	object-fit: cover;
+	width: 100%
+}
+.Campa-connectUSfix.sticker.clearfix.stickCT {
+  display: none;
+}
+.logoC { margin:0px;}
+.Campa-HowITBG ul li::before { ;}
+
+
+}
+ @media only screen and (min-device-width : 992px) and (max-device-width : 1170px) {
+.abtabs a { font-size:15px; }
+.abtabs {
+	min-height: inherit;
+	padding: 18px 0;
+	width: 100%;
+}
+.howItCircle {
+	
+}
+.container { width: 100%; }
+.ConnectForm {
+	width:100%;
+	padding:15px 15px;
+}
+.C-howit-box {  }
+.aboutUS-bx img {
+	height: 100%;
+	object-fit: contain;
+	width: 100%;
+}
+
+.videoBgHowit iframe {
+	margin: 0 auto;
+	width: 100%;
+}
+.Campa-HowITBG { min-height:auto;}
+/*.Campa-AboutUs ul li:nth-child(1) .aboutUS-bx { background:#919191; }
+.Campa-AboutUs ul li:nth-child(3) .aboutUS-bx { background:#919191; }
+.Campa-connectUSfix.sticker.clearfix.stickCT {
+  display: none;
+}*/
+.Campa-HowITBG ul li {padding: 0px 8px;}
+.Campa-HowITBG ul li::before { }
+}
+
+
+ @media only screen and (max-width :480px) {
+.Campa-connectUSfix.sticker.clearfix.stickCT {
+  display: block;
+}
+
+#Connectpanel { display:none;}
+ }
+
+
+
+ @media only screen and (min-device-width : 1171px) and (max-device-width : 1280px) {
+.container { width: 100%; }
+.ConnectForm {
+	width:100%;
+	padding:20px 20px;
+}
+.videoBgHowit iframe {
+	margin: 0 auto;
+	width: 100%;
+}
+}
+

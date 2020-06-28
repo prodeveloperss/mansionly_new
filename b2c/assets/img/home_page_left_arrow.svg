@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>left arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="left-arrow">
+            <rect id="Rectangle-9" fill-opacity="0.799999952" fill="#FFFFFF" transform="translate(20.000000, 20.000000) scale(-1, 1) translate(-20.000000, -20.000000) " x="0" y="0" width="40" height="40"></rect>
+            <path d="M24.7208315,19.0765476 L16.9232124,11.2789286 C16.5510696,10.9070238 15.9482124,10.9070238 15.5763077,11.2789286 C15.2044029,11.6510714 15.2044029,12.2539286 15.5763077,12.6258333 L22.7029744,19.7525 L15.5739267,26.9365476 C15.2034505,27.3096429 15.2058315,27.9129762 15.5789267,28.2832143 C15.764641,28.4675 16.0072601,28.5596429 16.2498791,28.5596429 C16.4948791,28.5596429 16.739641,28.4655952 16.9258315,28.2779762 L24.7234505,20.4208333 C25.0932124,20.0486905 25.092022,19.4475 24.7208315,19.0765476 Z" id="Shape" fill="#000000" fill-rule="nonzero" transform="translate(20.148690, 19.779821) scale(-1, 1) translate(-20.148690, -19.779821) "></path>
+        </g>
+    </g>
+</svg>

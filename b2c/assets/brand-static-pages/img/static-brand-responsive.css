@@ -1,0 +1,448 @@
+
+
+@media only screen and (max-width :1200px) {  
+.rosenthal-partialslider .owl-item .item:after, 
+.rosenthal-partialslider .owl-item .item:before{ content:''; display:none;}
+}
+
+@media only screen and (max-width :1100px) {
+.roberto-venture-imgGallary .container {
+    width: 100%;
+}
+.robertoimgGallary ul li:nth-child(4) {
+    width: inherit;
+}	
+.robertoimgGallary ul li:nth-child(1) .robertoimg img{ width:350px;}
+
+.robertoimgGallary ul li:nth-child(2) .robertoimg-cpttion { width:100%;}
+.roberto-venture-imgGallary2 .container {
+    width: 100%;
+}
+	
+}
+@media only screen and (max-width :1920px) { }
+
+@media only screen and (max-width :575px) {
+
+.RosenthalMob-imgGallary ul { list-style-type:none; padding:0px; margin:0px;}
+.RosenthalMob-imgGallary ul li { width:100%; float:left;}
+.RosenthalMob-imgGallary ul li img{ width:100%;}
+.rs-logo-left {    width: 100%;    text-align: center; float:none;}	
+.rs-logotext-right { overflow:visible; padding:15px 0px;} 
+.rs-brandlogo {    float: left;    width: 100%;}
+.reCommon-header {    padding: 30px 0px;     width: 100%;}
+.reCommon-header h1 {    font-size: 26px; line-height:inherit; line-height:25px;	}
+.rosenthal-partialslider { padding:0px 10px;}
+.rosenthal-partialslider .owl-item .item:after, .rosenthal-partialslider .owl-item .item:before{ content:''; display:none;} 
+.loop-center .item img {   width: 100vw; object-fit: cover; height: 80vh;}
+.res-img-cption { opacity:1; margin-top:10px;}
+.rosenthal-partialslider .owl-theme .owl-dots .owl-dot span { background:#000; border:solid 1px transparent;}
+.rosenthal-partialslider .owl-theme .owl-dots .owl-dot.active span,  
+.rosenthal-partialslider.owl-theme .owl-dots .owl-dot:hover span { background:transparent; border:solid 1px  #000;}
+.dner-left, .dner-right { width:100%;}
+.dnr-imgbx { width:100%;}
+.dner-right ul li:first-child { min-height:auto;}
+.dner-right ul li, .dner-left ul li { width:100%;}
+.dnr-imgbxheder-grybox::before { border-left: 100px solid transparent;left: -100px;}
+.dnr-imgbxheder-grybox { min-width:250px;} 
+.dner-right ul li { padding-bottom:10px;}
+.dner-left-s2, .dner-right-s2 { width:100%;}
+.dner-left-s2 ul li, .dner-right-s2 ul li {width:100%;}
+.dner-left-s2 .dnr-imgbxheder { min-height:inherit; width:100%; padding-bottom:30px;}
+.leftDescrp-res { margin-top:70px;}
+.dner-left-s2 .dnr-imgbxheder .dnr-imgbxheder-grybox::after {    border-right: 100px solid transparent;    right: -100px;    z-index: 1;;}
+.dinnerware-section-two .dnr-imgbxheder h2{ display:inline-block; padding-left:15px;}
+.dner-left-s2 .dnr-imgbxheder { text-align:left;}
+.dinnerware-section-two .dnr-imgbxheder h2::after { right:-20px; }
+.dner-left-s2 ul li .dnr-imgbx { position:static;}
+.dinnerware-section-two { padding-bottom:10px;}
+.Rs-explore-product-slider { padding:0px;}
+.Rs-explore-product .dnr-imgbxheder h2 {    margin: 8px 0px 0px 0px; padding:0px;}	
+.luxsurios-furniture-section { padding:30px 0px;}
+.int-mainform ul { padding:0px; margin:0px;}
+.int-mainform ul li { width:100%;}	
+.dinnerware-section { padding-bottom:20px;}
+#Rs-explore-product-slider-mobile .item img{ max-width:100%; width:100%;}
+.Rs-explore-product-slider .owl-theme .owl-dots .owl-dot span, .Rs-explore-product-slider .owl-theme .owl-dots .owl-dot.active span {  width: 20px;}
+.luxsurios-furniture-img img {width: 100%; object-fit: cover; height: 40vh;}
+.luxsurios-furniture-section ul li:nth-child(3),
+.luxsurios-furniture-section ul li:nth-child(2) { width:100%;}
+.luxsurios-furniture-section ul li:nth-child(2) .lux-img-cpt, 
+.luxsurios-furniture-section ul li:nth-child(5) .lux-img-cpt {	right: inherit;	top: 0px;	left:0px;}
+.lux-img-cpt {padding: 5px 10px;font-size: 18px; right: 0px;top: 0px;}
+.luxsurios-furniture-section ul li:nth-child(3) .lux-img-cpt {bottom: 0px;  right: 0;}
+.luxsurios-furniture-section ul li:nth-child(4) .lux-img-cpt { right:0px; bottom: 0px;} 
+.int-mainform .form-control { text-align:left;}
+.ForMobileHeading { display: block;}
+.ForDesktopHeading {display: none; }
+.rosenthal-brand  .container{ width:100%;}
+.rosenthal-brand .smb-twoImg-sect .container {  width:100%;}
+.rosenthal-brand .smb-luxbanner .container, 
+.rosenthal-brand .smb-luxbanner2 .container {  width:100%;}
+.res-img-cption { font-size:16px; margin-bottom:15px;}
+.RosenthalMob-imgGallary ul li img {    width: 100%;}
+/*-------------------------------------Sambonet---------------------------------------*/
+.smb-twoImg-sect ul li { width:100%; margin-bottom:20px;}
+.smb-luxbanner-inner {  padding: 0;  position: relative;}
+.smb-luxbanner-inner::before { content:''; display:none;}
+.smb-luxbanner-inner h1 {  font-size: 24px;  margin: 0 0 30px;}
+.smb-twoImg-sect {  padding: 40px 0px 25px 0px;}
+.smb-luxbanner-inner .owl-nav {  background: rgba(255, 255, 255, 0.7) none repeat scroll 0 0;  bottom: -15px;  position: absolute;  right: 0;}
+.smb-luxbanner-inner .owl-theme .owl-controls .owl-nav [class*="owl-"] { margin:0px 5px; padding: 0px 5px;}
+#sambonet-luxslider .item img {  height: 70vh;  object-fit: cover;  width: 100vw;}
+.smb-luxbanner2-img  img{  height:70vh;  object-fit: cover;  width:100%;}
+.smb-luxbanner2 h2 { font-size:16px;}
+.tableware-smbonet ul li{ width:100%;}
+.tblewre-text h2::before {  left: 0;}.tblewre-text h2::after {  right: 0;}
+.tblewre-text h2 { font-size:24px;}
+.tblewre-text {  margin: 15px 0px;  text-align: center;} 
+.tableware-smbonet ul li { min-height:auto;}
+.tblewre-text p {  font-size: 15px;}
+.tbr-smb2-left, .tbr-smb2-right { width:100%;}
+.tbr-smb2form-right, .tbr-smb2form-left {width:100%;}
+.tbr-smb2-right { min-height:335px;}
+.tbr-smb2-left {  padding: 10px;}
+.tableware-smbonet2, .smbnet-form-section {  margin: 0 -15px; }
+.tbr-smb2-right { border:solid 15px #fff; border-top:0px; border-bottom:0px;}
+.tbr-smb2form-right {  padding: 10px;}
+.tbr-smb2form-left {border:solid 15px #fff; border-top:0px; border-bottom:0px;}
+.smb2form {  padding: 50px 25px 0 10px;}
+.smb-luxbanner2 {  padding: 40px 0;}
+.tableware-smbonet2 {  padding: 40px 0;}
+.smb2form .form-control { text-align:left;}
+
+.smb-luxbanner-inner .owl-theme .owl-dots .owl-dot span { background:#000; border:solid 1px transparent;}
+.smb-luxbanner-inner .owl-theme .owl-dots .owl-dot.active span,  
+.smb-luxbanner-inner .owl-theme .owl-dots .owl-dot:hover span { background:transparent; border:solid 1px  #000;}
+.tbr-smb2-right p {  margin: 50px 0 0;}
+.smb2form .selct-stle::before {  right: 215px;  top: 6px;}
+.mobileheadinh3 { display:block;}
+.deksheadinh3 { display:none;}
+.smb-twoImg-sect ul li h3 { margin-bottom:20px;}
+.tblewre-text {  margin: 15px 0 3px; }
+.tbr-smb2form-left p { font-size:13px;}
+
+/*-------------------------------------Sambonet---------------------------------------*/
+
+/*-------------------------------------Versace---------------------------------------*/
+
+.Versace-Slider-inner {  margin: 0 auto;  padding: 0;  width: 100%;}
+.Versace-img-cption {  color: #000;  font-size: 14px; margin-bottom:20px;}
+.Versace-Slider-inner .owl-theme .owl-dots .owl-dot span { background:#000; border:solid 1px transparent;}
+.Versace-Slider-inner .owl-theme .owl-dots .owl-dot.active span,  
+.Versace-Slider-inner .owl-theme .owl-dots .owl-dot:hover span { background:transparent; border:solid 1px  #000;} 
+.Versace-imageGallery ul:first-child, .Versace-imageGallery ul:last-child { width:100%;}
+.Tableware-imageGallery ul li { width:100%;}
+.Tableware-imageGallery ul { padding:0px;}
+.Tableware-imageGallery ul li .v-gallimg img {  max-width: 100%;  object-fit: contain;  width: inherit;}
+.Stemware-imageGallery ul li {  padding: 0 15px; width:100%;}
+.Stemware-imageGallery { padding:0px;}
+.rs-brandlogo.rs-brandlogo-verscase.clearfix  { padding:0px;}
+.Versace-Slider-luxbanner {  padding: 30px 0;}
+.Versace-Slider-luxbanner p {  font-size: 20px;  line-height: 26px;}
+.tableware-smbonet .tblewre-text {  margin: 30px 0 3px; }
+
+.rs-brandlogo-verscase .sm-logo-left { padding:20px 0 0;}
+.Versace-SendRquest-form  .int-mainform ul{ margin:0px;}
+.Stemware-imageGallery ul { margin:0px;}
+.Versace-SendRquest-form  .int-mainform ul li{ padding:0px;}
+.Tableware-imageGallery h4::after { height:1px;}
+.Tableware-imageGallery ul li.blue-prestige-gala  .v-gallimg-capt {  bottom: inherit;  top: 420px;}
+.Tableware-imageGallery ul .clearfix{ display:none;}
+
+/*-------------------------------------Versace---------------------------------------*/
+/*-------------------------------------Roberto---------------------------------------*/
+.robertoimgGallary ul li:nth-child(1), .robertoimgGallary ul li:nth-child(2), .robertoimgGallary ul li:nth-child(4) {  float: left;  width: 100%;}
+.robertoimgGallary ul li { width: 100%;}
+.robertoimgGallary ul li  .robertoimg img{ max-width:100%;}
+.robertoimgGallary ul li:nth-child(2) .robertoimgGallary-wrap {  border: medium none;  min-height: 350px;  padding: 0;  text-align: center;}
+.robertoimgGallary ul li:nth-child(2) .robertoimg-cpttion {  top: 300px;}
+.robertoimgGallary-wrap {  min-height: 310px;  width: 100%;}
+.robertoimgGallary ul li:nth-child(1) .robertoimg-cpttion::before{ background: #efefef; content: ""; display: block; height: 1px;left: 0;	margin: 0 auto;
+position: absolute;	right: 0;	top: -7px;	width: 100px;}
+	
+.robertoimgGallary ul li:nth-child(1) .robertoimg-cpttion::after {color: #725f4f; content:"\f0de"; left: 0;	margin: 0 auto;	position: absolute;	right: 0;	text-align: center;	top: -20px;	width: 15px;}	
+.robertoimgGallary ul li:nth-child(1) .robertoimg-cpttion {  left: inherit;  position: absolute;  right: inherit;  top: inherit; width:100%;}
+
+.robertoimgGallary ul li .robertoimgGallary-wrap { margin-bottom:50px;}
+
+.robertoimgGallary ul li:nth-child(4) .robertoimg  { margin-top:50px;}
+.roberto-venture-imgGallary { padding:40px 0px 0px 0px;}
+.robertoventure_Slider-wrapper {  padding: 0;}
+.rv-descriptScetion {  margin: 60px 0 50px;}
+.robertoimgGallary2 ul li:nth-child(1) , .robertoimgGallary2 ul li, .robertoimgGallary2 ul li:nth-child(2) {  width: 100%;}
+.robertoimgGallary2 ul li  .robertoimg img{ max-width:100%;}
+.interest-form p  { font-size:13px;}
+.robertoVentura-form .int-mainform ul li { padding:0px;}
+.robertoimg { text-align:center;}
+.robertoventure_Slider-wrapper .container { width:100%}
+
+/*-------------------------------------Roberto---------------------------------------*/
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width : 576px) and (max-device-width : 767px) {
+.RosenthalMob-imgGallary ul { list-style-type:none; padding:0px; margin:0px;}
+.RosenthalMob-imgGallary ul li { width:100%; float:left;}
+.RosenthalMob-imgGallary ul li img{ width:100%;}
+.rs-logo-left {    width: 100%;    text-align: center; float:none;}	
+.rs-logotext-right { overflow:visible; padding:15px 0px;} 
+.rs-brandlogo {    float: left;    width: 100%;}
+.reCommon-header h1 {    font-size: 40px; line-height:inherit; line-height:35px;	}
+.rosenthal-partialslider { padding:0px 10px;}
+.rosenthal-partialslider .owl-item .item:after, .rosenthal-partialslider .owl-item .item:before{ content:''; display:none;} 
+.loop-center .item img {   width: 100vw; object-fit: cover; height: 80vh;}
+.res-img-cption { opacity:1; margin-top:10px;}
+.rosenthal-partialslider .owl-theme .owl-dots .owl-dot span { background:#000; border:solid 1px transparent;}
+.rosenthal-partialslider .owl-theme .owl-dots .owl-dot.active span,  
+.rosenthal-partialslider.owl-theme .owl-dots .owl-dot:hover span { background:transparent; border:solid 1px  #000;}	
+.dner-right ul li:first-child { min-height:auto;}
+.dner-right ul li, .dner-left ul li { width:100%;}
+.dnr-imgbxheder-grybox::before { border-left: 100px solid transparent;left: -100px;}
+.dnr-imgbxheder-grybox { min-width:250px;} 
+.dner-right ul li { padding-bottom:10px;}
+.dner-left-s2, .dner-right-s2 { width:100%;}
+.dner-left, .dner-right { width:100%; padding-top:10px;}
+.dner-right ul li, .dner-left ul li {    width: 50%;}
+.dnr-imgbxheder-grybox {    min-width: 452px;}
+.Rs-explore-product-slider { padding:0px;}
+#Rs-explore-product-slider-mobile .item img {    max-width: 100%;    width: 100%;}
+.Rs-explore-product .dnr-imgbxheder h2 { padding:0px;}
+.luxsurios-furniture-section { padding:30px 0px;}
+.luxsurios-furniture-section ul li:nth-child(2), .luxsurios-furniture-section ul li:nth-child(3) { width:100%;}
+.dinnerware-section-two,.dinnerware-section { padding-bottom:0px;}
+.luxsurios-furniture-section ul li:nth-child(3),
+.luxsurios-furniture-section ul li:nth-child(2) { width:100%;}
+.luxsurios-furniture-section ul li:nth-child(2) .lux-img-cpt, 
+.luxsurios-furniture-section ul li:nth-child(5) .lux-img-cpt {	right: inherit;	top: 0px;	left:0px;}
+.lux-img-cpt {padding: 5px 10px;font-size: 18px; right: 0px;top: 0px;}
+.luxsurios-furniture-section ul li:nth-child(3) .lux-img-cpt {bottom: 0px;  right: 0;}
+.luxsurios-furniture-section ul li:nth-child(4) .lux-img-cpt { right:0px; bottom: 0px;} 
+.int-mainform .form-control { text-align:center;}
+.int-mainform ul { padding:0px; margin:0px;}
+.int-mainform ul li { width:100%;}
+.reCommon-header {    padding: 55px 0px;}
+.ForDesktopHeading {display: none; }	
+.ForMobileHeading { display: block;}
+.rosenthal-brand  .container{ width:100%;}
+
+
+
+
+
+/*-------------------------------------Sambonet---------------------------------------*/
+.smb-twoImg-sect ul li { width:100%; margin-bottom:20px;}
+.smb-luxbanner-inner {  padding: 0;  position: relative;}
+.smb-luxbanner-inner::before { content:''; display:none;}
+.smb-luxbanner-inner h1 {  font-size: 24px;  margin: 0 0 30px;}
+.smb-twoImg-sect {  padding: 40px 0px 25px 0px;}
+.smb-luxbanner-inner .owl-nav {  background: rgba(255, 255, 255, 0.7) none repeat scroll 0 0;  bottom: -15px;  position: absolute;  right: 0;}
+.smb-luxbanner-inner .owl-theme .owl-controls .owl-nav [class*="owl-"] { margin:0px 5px; padding: 0px 5px;}
+#sambonet-luxslider .item img {  height: 70vh;  object-fit: cover;  width: 100vw;}
+.smb-luxbanner2-img  img{  height:70vh;  object-fit: cover;  width:100%;}
+.smb-luxbanner2 h2 { font-size:16px;}
+.tableware-smbonet ul li{ width:100%;}
+.tblewre-text h2::before {  left: 0;}.tblewre-text h2::after {  right: 0;}
+.tblewre-text h2 { font-size:24px;}
+.tblewre-text {  margin: 15px 0px;  text-align: center;} 
+.tableware-smbonet ul li { min-height:auto;}
+.tblewre-text p {  font-size: 15px;}
+.tbr-smb2-left, .tbr-smb2-right { width:100%;}
+.tbr-smb2form-right, .tbr-smb2form-left {width:100%;}
+.tbr-smb2-right { min-height:335px;}
+.tbr-smb2-left {  padding: 10px;}
+.tableware-smbonet2, .smbnet-form-section {  margin: 0 -15px; }
+.tbr-smb2-right { border:solid 15px #fff; border-top:0px; border-bottom:0px;}
+.tbr-smb2form-right {  padding: 10px;}
+.tbr-smb2form-left {border:solid 15px #fff; border-top:0px; border-bottom:0px;}
+.smb2form {  padding: 50px 25px 0 10px;}
+.smb-luxbanner2 {  padding: 40px 0;}
+.tableware-smbonet2 {  padding: 40px 0;}
+.smb2form .form-control { text-align:left;}
+.rosenthal-brand .smb-twoImg-sect .container {  width:100%;}
+.rosenthal-brand .smb-luxbanner .container, .rosenthal-brand .smb-luxbanner2 .container {  width:100%;}
+.smb-luxbanner-inner .owl-theme .owl-dots .owl-dot span { background:#000; border:solid 1px transparent;}
+.smb-luxbanner-inner .owl-theme .owl-dots .owl-dot.active span,  
+.smb-luxbanner-inner .owl-theme .owl-dots .owl-dot:hover span { background:transparent; border:solid 1px  #000;}
+.tbr-smb2-right p {  margin: 50px 0 0;}
+.smb2form .selct-stle::before {  right: 10px;}
+.mobileheadinh3 { display:block;}
+.deksheadinh3 { display:none;}
+.tblewre-text {  margin: 15px 0 3px; }
+.tableware-smbonet .tblewre-text {  margin: 30px 0 3px; }
+.tbr-smb2form-left p { font-size:13px;}
+
+/*-------------------------------------Sambonet---------------------------------------*/
+/*-------------------------------------Versace---------------------------------------*/
+
+.Versace-Slider-inner {  margin: 0 auto;  padding: 0;  width: 100%;}
+.Versace-img-cption {  color: #000;  font-size: 14px; margin-bottom:20px;}
+.Versace-Slider-inner .owl-theme .owl-dots .owl-dot span { background:#000; border:solid 1px transparent;}
+.Versace-Slider-inner .owl-theme .owl-dots .owl-dot.active span,  
+.Versace-Slider-inner .owl-theme .owl-dots .owl-dot:hover span { background:transparent; border:solid 1px  #000;} 
+.Versace-imageGallery ul:first-child, .Versace-imageGallery ul:last-child { width:100%;}
+.Tableware-imageGallery ul li { width:100%;}
+.Tableware-imageGallery ul { padding:0px;}
+.Tableware-imageGallery ul li .v-gallimg img {  max-width: 100%;  object-fit: contain;  width: inherit;}
+.Stemware-imageGallery ul li {  padding: 0 15px; width:100%;}
+.Stemware-imageGallery { padding:0px;}
+.rs-brandlogo.rs-brandlogo-verscase.clearfix  { padding:0px;}
+.Versace-Slider-luxbanner {  padding: 30px 0;}
+.Versace-Slider-luxbanner p {  font-size: 20px;  line-height: 26px;}
+.Versace-SendRquest-form  .int-mainform ul{ margin:0px;}
+.Stemware-imageGallery ul { margin:0px;}
+.Versace-SendRquest-form  .int-mainform ul li{ padding:0px;}
+.Tableware-imageGallery h4::after { height:1px;}
+.Tableware-imageGallery ul li:nth-child(4) .v-gallimg-capt {  bottom: inherit;  top: 420px;}
+
+/*-------------------------------------Versace---------------------------------------*/
+/*-------------------------------------Roberto---------------------------------------*/
+.robertoimgGallary ul li:nth-child(1), .robertoimgGallary ul li:nth-child(2), .robertoimgGallary ul li:nth-child(4) {  float: left;  width: 100%;}
+.robertoimgGallary ul li { width: 100%;}
+.robertoimgGallary ul li  .robertoimg img{ max-width:100%;}
+.robertoimgGallary ul li:nth-child(2) .robertoimgGallary-wrap {  border: medium none;  min-height: 350px;  padding: 0;  text-align: center;}
+.robertoimgGallary ul li:nth-child(2) .robertoimg-cpttion {  top: 300px;}
+.robertoimgGallary-wrap {  min-height: 310px;  width: 100%;}
+.robertoimgGallary ul li:nth-child(1) .robertoimg-cpttion::before{ background: #efefef; content: ""; display: block; height: 1px;left: 0;	margin: 0 auto;
+position: absolute;	right: 0;	top: -7px;	width: 100px;}
+	
+.robertoimgGallary ul li:nth-child(1) .robertoimg-cpttion::after {color: #725f4f; content:"\f0de"; left: 0;	margin: 0 auto;	position: absolute;	right: 0;	text-align: center;	top: -20px;	width: 15px;}	
+.robertoimgGallary ul li:nth-child(1) .robertoimg-cpttion {  left: inherit;  position: absolute;  right: inherit;  top: inherit; width:100%;}
+
+.robertoimgGallary ul li .robertoimgGallary-wrap { margin-bottom:50px;}
+
+.robertoimgGallary ul li:nth-child(4) .robertoimg  { margin-top:50px;}
+.roberto-venture-imgGallary { padding:40px 0px 0px 0px;}
+.robertoventure_Slider-wrapper {  padding: 0;}
+.rv-descriptScetion {  margin: 60px 0 50px;}
+.robertoimgGallary2 ul li:nth-child(1) , .robertoimgGallary2 ul li, .robertoimgGallary2 ul li:nth-child(2) {  width: 100%;}
+.robertoimgGallary2 ul li  .robertoimg img{ max-width:100%;}
+.interest-form p  { font-size:13px;}
+.robertoVentura-form .int-mainform ul li { padding:0px;}
+
+.robertoventure_Slider-mobile.owl-carousel .owl-item img { max-width:inherit; width:100%;}
+.robertoimg { text-align:center;}
+.robertoventure_Slider-wrapper .container { width:100%}
+
+/*-------------------------------------Roberto---------------------------------------*/
+
+
+
+
+
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 991px) {
+.dner-left, .dner-right{ width:100%;}	
+.ForDesktopHeading {display: none; }	
+.ForMobileHeading { display: block;}
+.dner-left-s2, .dner-right-s2 { width:100%;}
+.Rs-explore-product-slider { padding:0px;}
+.luxsurios-furniture-section { padding:30px 0px;}
+.int-mainform ul {    margin: 0px -30px;    padding: 0px 35px;}
+.luxsurios-furniture-section ul li:nth-child(2) .lux-img-cpt, .luxsurios-furniture-section ul li:nth-child(5) .lux-img-cpt 
+{right: inherit;    top: 50px;    left: 0	}
+.luxsurios-furniture-section ul li:nth-child(3) .lux-img-cpt, .luxsurios-furniture-section ul li:nth-child(4) .lux-img-cpt { right: 0px;}
+.lux-img-cpt { font-size:16px; right:0px;}
+.reCommon-header h1 { font-size: 59px;}
+.reCommon-header { padding: 40px 0px;} 
+.dner-right ul li:first-child { min-height: auto;}
+.rosenthal-brand  .container{ width:100%;}
+.rosenthal-brand .smb-luxbanner .container, .rosenthal-brand .smb-luxbanner2 .container {  width: 100%;}
+.smb-luxbanner-inner { padding: 0 60px;  position: relative;}
+.smb-luxbanner2-img  img{ width:100%;  }
+.tableware-smbonet  .ForMobileHeading { display:none;}
+.tableware-smbonet  .ForDesktopHeading {  display: block;}
+.tableware-smbonet ul li {  min-height: 400px;}
+.rosenthal-brand .smb-twoImg-sect .container {  width:100%;}
+.tbr-smb2-right { min-height:423px;}
+.smb2form {  padding: 13px 35px 0 10px;}
+.tbr-smb2form-left {  min-height: 421px;  padding: 12px 0 15px 15px;}
+.tbr-smb2form-left p { font-size:13px;}  
+.imgBlur-Rs {  filter: blur(0px);}
+#Rosenthalslider .item img { display:none;}
+
+/*-------------------------------------Versace---------------------------------------*/
+
+.Versace-Slider-inner {  margin: 0 auto;  padding: 0;  width: 100%;}
+.Versace-img-cption {  color: #000;  font-size: 14px; margin-bottom:20px;}
+.Versace-Slider-inner .owl-theme .owl-dots .owl-dot span { background:#000; border:solid 1px transparent;}
+.Versace-Slider-inner .owl-theme .owl-dots .owl-dot.active span,  
+.Versace-Slider-inner .owl-theme .owl-dots .owl-dot:hover span { background:transparent; border:solid 1px  #000;} 
+.Tableware-imageGallery ul li .v-gallimg img {  max-width: 100%;}
+.rs-brandlogo-verscase .sm-logo-left { padding:0px 0 0;}
+/*-------------------------------------Versace---------------------------------------*/
+
+/*-------------------------------------Roberto---------------------------------------*/
+.robertoimgGallary ul li:nth-child(2) {   float: right;  padding: 0;  width: 43%;}
+.robertoimgGallary ul li:nth-child(1) .robertoimg-cpttion {  right: -190px;}
+.robertoimgGallary2 ul li:nth-child(1), .robertoimgGallary2 ul li, .robertoimgGallary2 ul li:nth-child(2)  {  width: 100%;}
+.robertoimgGallary2 ul li  .robertoimg img{ max-width:100%;}
+.robertoventure_Slider-wrapper .container { width:100%}
+
+}
+@media only screen and (min-device-width : 992px) and (max-device-width : 1170px) {
+.dner-left, .dner-right{ width:100%;}	
+.ForDesktopHeading {display: none; }	
+.ForMobileHeading { display: block;}
+.dner-left-s2, .dner-right-s2 { width:100%;}
+.Rs-explore-product-slider { padding:0px;}
+.luxsurios-furniture-section { padding:30px 0px;}
+.int-mainform ul {    margin: 0px -30px;    padding: 0px 35px;}
+.luxsurios-furniture-section ul li:nth-child(2) .lux-img-cpt, .luxsurios-furniture-section ul li:nth-child(5) .lux-img-cpt {right: inherit; top: 50px;left: 0	}
+.luxsurios-furniture-section ul li:nth-child(3) .lux-img-cpt, .luxsurios-furniture-section ul li:nth-child(4) .lux-img-cpt {    right: 0px;}
+.lux-img-cpt { font-size:16px; right:0px;}
+.reCommon-header h1 {    font-size: 59px;}
+.reCommon-header {    padding: 40px 0px;}
+.dinnerware-section-two, .dinnerware-section {    padding: 0px 100px;} 
+.dner-right ul li:first-child { min-height: auto;}
+.rosenthal-brand  .container{ width:100%;}
+#Rosenthalslider .item {  height: 377px;  position: relative;}	
+.imgBlur-Rs { display:none !important;}	
+.sambonet-brand .imgBlur-Rs {  filter: blur(0px); display:block !important;}
+#Rosenthalslider .item img { display:none;}
+.rosenthal-brand .smb-twoImg-sect .container {  width:100%;}
+.rosenthal-brand .smb-luxbanner .container, .rosenthal-brand .smb-luxbanner2 .container {  width: 100%;}
+.tableware-smbonet  .ForMobileHeading { display:none;}
+.tableware-smbonet  .ForDesktopHeading {  display: block;}
+.tableware-smbonet ul li {  min-height: 545px;}
+.imgBlur-Rs {  filter: blur(0px); display:block;}
+#Rosenthalslider .item img { display:none;}
+
+
+.rs-brandlogo-verscase .sm-logo-left {  padding: 0px 0 0;}
+.Tableware-imageGallery ul li .v-gallimg img {  max-width: 100%;}
+.rs-brandlogo-verscase .sm-logo-left { padding:0px 0 0;}
+
+
+.robertoslidr .imgBlur-Rs {
+  display: block !important;
+  filter: blur(0px);
+}
+
+.robertoimgGallary ul li:nth-child(2) {   float: right;  padding: 0;  width: 43%;}
+.robertoimgGallary ul li:nth-child(1) .robertoimg-cpttion {  right: -190px;}
+.robertoimgGallary2 ul li:nth-child(1), .robertoimgGallary2 ul li, .robertoimgGallary2 ul li:nth-child(2)  {  width: 100%;}
+.robertoimgGallary2 ul li  .robertoimg img{ max-width:100%;}
+.robertoimgGallary2 ul li:nth-child(1), .robertoimgGallary2 ul li, .robertoimgGallary2 ul li:nth-child(2) {
+  width: 50%;}
+
+.robertoimgGallary2 ul li:nth-child(5) { width:100%;}
+.robertoimgGallary ul li:nth-child(1) .robertoimg-cpttion {
+  right: -110px;
+}
+
+
+}
+@media only screen and (max-width :480px) {
+}
+@media only screen and (min-device-width : 1700px) and (max-device-width : 1920px) {
+	.rosenthal-partialslider .owl-item .item:after { right:50px;}
+}

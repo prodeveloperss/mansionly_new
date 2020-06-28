@@ -1,0 +1,434 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery-plugin-progressbar Demos</title>
+    
+    <!--<link rel="stylesheet" href="../css/jQuery-plugin-progressbar.css">-->
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/jQuery-plugin-progressbar.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/jQuerypluginprogressbar.js"></script>
+</head>
+<body>
+
+
+    
+    
+    
+  <div class="wrpper">
+<header class="clearfix">
+  <nav class="header-menu">
+  
+    <div class="logo"><a href="javascript:void()"> <img src="img/logo.png" alt="banner"> </a></div>
+    <a href="javascript:void()" class="menuBtn"><i class="fa fa-bars"></i> </a>
+    
+        <div class=" header-right-menu-mobileNew">
+        	<ul>
+            	<li><a href="javascript:void()">DESIGNERS</a></li>
+                <li><a href="javascript:void()"   >EXECUTION GALLERY</a>                                   </li>
+               <li class="dropdown" >
+               <a href="javascript:void()" class="dropdown-toggle " data-toggle="dropdown">LIFESTYLE PRODUCTS  <i class="fa fa-angle-down"></i> </a>
+                <ul class="dropdown-menu">
+                    <li><a href="javascript:void()">About Us</a></li>
+                    <li><a href="javascript:void()">How it Works</a></li>
+                    </ul>
+               </li>
+                <li><a href="javascript:void()">MAGAZINE</a></li>
+                <li><a href="javascript:void()">About Us</a></li>
+                <li><a href="javascript:void()">How it Works</a></li>
+            </ul>
+        </div>
+        <div class="mobile-search ">
+         <li > <a href="javascript:void()" id="flip"><i class="fa fa-search"></i></a></li>
+         <li > <a href="javascript:void()"><i class="fa fa-user-circle-o"></i></a></li>
+        </div>
+        <div id="panel" class="searchPanel">
+        	<form>
+             <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search for...">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Go!</button>
+      </span>
+    </div>
+            	
+            </form>
+        </div>
+        
+    
+    <div class="header-right-menu">
+      <ul>
+        <li class="dropdown" > 
+        <a class="dropdown-toggle " data-toggle="dropdown" href="javascript:void()">DESIGNERS</a>
+          <ul class="dropdown-menu megamenu row  megaDrop1 " id="" >
+            <li class="Desinger-tb"> 
+            
+            <h2>Featured This Week </h2>
+            <div class="col-md-4 col-sm-4">
+            	<div class="proImg"><img src="img/proimg.png" alt="proimg" class="img-responsive"></div>
+                <div class="proImg-head">Joel Villegas Alonzo</div>
+            </div>
+             <div class="col-md-4 col-sm-4">
+            	<div class="proImg"><img src="img/proimg.png" alt="proimg" class="img-responsive"></div>
+                <div class="proImg-head">Joel Villegas Alonzo</div>
+            </div>
+            
+             <div class="col-md-4 col-sm-4">
+            	<div class="proImg"><img src="img/proimg.png" alt="proimg" class="img-responsive"></div>
+                <div class="proImg-head">Joel Villegas Alonzo</div>
+            </div>
+            <a href="#" class="ViewAll"> View all </a> </li>
+          </ul>
+        </li>
+        
+        <li class="dropdown" > 
+        <a class="dropdown-toggle " data-toggle="dropdown" href="javascript:void()">EXECUTION GALLERY</a>
+          <ul class="dropdown-menu megamenu row megaDrop2 " id="" >
+            <li class="col-md-3 col-sm-3" > 
+            <ul class="introExcut-gall">
+            	   <li class="dropdown-header" >&nbsp;</li>
+                    <li> <a href="#" id="projectlink0">Premium Residences</a> </li>
+                    <li> <a href="#" id="projectlink1"> Global Inspirations</a> </li>
+                    <li> <a href="#" id="projectlink2">Luxury Hotels</a> </li>
+                    <li> <a href="#" id="projectlink3">Commercial Designs</a> </li>
+                    <li > <a href="#">View All</a> </li>
+            </ul>
+            </li>
+              <li class="col-md-9 col-sm-9 exestyle">
+              
+              <ul>	
+              	<li  class="dropdowheader projectexecution">Premium residences executed by our partners</li>
+              </ul>
+           
+              <div class="col-md-12 col-sm-12 " id="project0" style="display:none">
+                 <div class="row">
+              <div class="col-md-4">
+                  <div class="Exewithd" >
+                    <a href="#">
+                        <div class="exeutxt"></div>
+                        <div class="proImg">
+                            <img src="img/excu1.jpg" alt="proimg" class="img-responsive">
+                        </div>
+                        <div class="proImg-head">Joel Villegas Alonzo</div>
+                    </a>
+                </div>	
+              </div>
+              <div class="col-md-4">
+                  <div class="Exewithd" >
+                    <a href="#">
+                        <div class="exeutxt"></div>
+                        <div class="proImg">
+                            <img src="img/excu2.jpg" alt="proimg" class="img-responsive">
+                        </div>
+                        <div class="proImg-head">Joel Villegas Alonzo</div>
+                    </a>
+                </div>	
+              </div>
+              
+              
+              <div class="col-md-4">
+                  <div class="Exewithd" >
+                    <a href="#">
+                        <div class="exeutxt"></div>
+                        <div class="proImg">
+                            <img src="img/excu1.jpg" alt="proimg" class="img-responsive">
+                        </div>
+                        <div class="proImg-head">Joel Villegas Alonzo</div>
+                    </a>
+                </div>
+                </div>	
+              </div>
+               <a href="#" class="ViewAll"> View all </a> 
+              </div>
+              <div class="col-md-12 col-sm-12 " id="project1">
+                 <div class="row">
+              <div class="col-md-4">
+                  <div class="Exewithd" >
+                    <a href="#">
+                        <div class="exeutxt"></div>
+                        <div class="proImg">
+                            <img src="img/excu2.jpg" alt="proimg" class="img-responsive">
+                        </div>
+                        <div class="proImg-head">Joel Villegas Alonzo</div>
+                    </a>
+                </div>	
+              </div>
+              <div class="col-md-4">
+                  <div class="Exewithd" >
+                    <a href="#">
+                        <div class="exeutxt"></div>
+                        <div class="proImg">
+                            <img src="img/excu1.jpg" alt="proimg" class="img-responsive">
+                        </div>
+                        <div class="proImg-head">Joel Villegas Alonzo</div>
+                    </a>
+                </div>	
+              </div>
+              
+              
+              <div class="col-md-4">
+                  <div class="Exewithd" >
+                    <a href="#">
+                        <div class="exeutxt"></div>
+                        <div class="proImg">
+                            <img src="img/excu2.jpg" alt="proimg" class="img-responsive">
+                        </div>
+                        <div class="proImg-head">Joel Villegas Alonzo</div>
+                    </a>
+                </div>	
+              </div>
+              </div>
+               <a href="#" class="ViewAll"> View all </a> 
+              </div>
+              
+              <div class="col-md-12 col-sm-12 " id="project2" style="display:none">
+                 <div class="row">
+              <div class="col-md-4">
+                  <div class="Exewithd" >
+                    <a href="#">
+                        <div class="exeutxt"></div>
+                        <div class="proImg">
+                            <img src="img/excu1.jpg" alt="proimg" class="img-responsive">
+                        </div>
+                        <div class="proImg-head">Joel Villegas Alonzo</div>
+                    </a>
+                </div>	
+              </div>
+              <div class="col-md-4">
+                  <div class="Exewithd" >
+                    <a href="#">
+                        <div class="exeutxt"></div>
+                        <div class="proImg">
+                            <img src="img/excu1.jpg" alt="proimg" class="img-responsive">
+                        </div>
+                        <div class="proImg-head">Joel Villegas Alonzo</div>
+                    </a>
+                </div>	
+              </div>
+              
+              
+              <div class="col-md-4">
+                  <div class="Exewithd" >
+                    <a href="#">
+                        <div class="exeutxt"></div>
+                        <div class="proImg">
+                            <img src="img/excu2.jpg" alt="proimg" class="img-responsive">
+                        </div>
+                        <div class="proImg-head">Joel Villegas Alonzo</div>
+                    </a>
+                </div>	
+              </div>
+              </div>
+               <a href="#" class="ViewAll"> View all </a> 
+              </div>
+              <div class="col-md-12 col-sm-12 " id="project3" style="display:none">
+                 <div class="row">
+              <div class="col-md-4">
+                  <div class="Exewithd" >
+                    <a href="#">
+                        <div class="exeutxt"></div>
+                        <div class="proImg">
+                            <img src="img/proimg.png" alt="proimg" class="img-responsive">
+                        </div>
+                        <div class="proImg-head">Joel Villegas Alonzo</div>
+                    </a>
+                </div>	
+              </div>
+              <div class="col-md-4">
+                  <div class="Exewithd" >
+                    <a href="#">
+                        <div class="exeutxt"></div>
+                        <div class="proImg">
+                            <img src="img/proimg.png" alt="proimg" class="img-responsive">
+                        </div>
+                        <div class="proImg-head">Joel Villegas Alonzo</div>
+                    </a>
+                </div>	
+              </div>
+              
+              
+              <div class="col-md-4">
+                  <div class="Exewithd" >
+                    <a href="#">
+                        <div class="exeutxt"></div>
+                        <div class="proImg">
+                            <img src="img/proimg.png" alt="proimg" class="img-responsive">
+                        </div>
+                        <div class="proImg-head">Joel Villegas Alonzo</div>
+                    </a>
+                </div>	
+              </div>
+              </div>
+               <a href="#" class="ViewAll"> View all </a> 
+              </div>
+            </li>
+          </ul>
+        </li>
+        
+        
+        
+        <li class="dropdown"> 
+        <a class="dropdown-toggle " data-toggle="dropdown" href="javascript:void()">LIFESTYLE PRODUCTS</a>
+          <ul class="dropdown-menu megamenu row   megaDrop3"  >
+            <li class="col-md-12 col-sm-12 col-xs-12 " > 
+            <ul class="lifestle-product">
+            <li class="brandsname"> Brands</li>
+                <li><a href="javascript:void(0)"> Augarten </a></li>
+                <li><a href="javascript:void(0)"> Gaisbauer  </a></li>
+                <li><a href="javascript:void(0)">  Zur Schwaebischen Jungfrau  </a></li>
+                <li><a href="javascript:void(0)">  Dotzauer  </a></li>
+                <li><a href="javascript:void(0)"> Aigner Rarities  </a></li>
+                <li><a href="javascript:void(0)"> <strong>View All</strong>  <i class="fa fa-angle-right"></i> </a></li>
+            </ul>
+            <ul class="lifestle-product">
+            <li class="brandsname"> Category</li>
+                <li><a href="javascript:void(0)"> Furnishing </a></li>
+                <li><a href="javascript:void(0)"> Furniture  </a></li>
+                <li><a href="javascript:void(0)">  Luxe Decor </a></li>
+                <li><a href="javascript:void(0)">  Homeware  </a></li>
+                <li><a href="javascript:void(0)"> Lighting  </a></li>
+                <li><a href="javascript:void(0)"> <strong>View All</strong>  <i class="fa fa-angle-right"></i> </a></li>
+            </ul>
+            <ul class="lifestle-product">
+            <li class="brandsname"> Section</li>
+                <li><a href="javascript:void(0)"> Living Room </a></li>
+                <li><a href="javascript:void(0)"> Bed Room  </a></li>
+                <li><a href="javascript:void(0)">  Kids Room  </a></li>
+                <li><a href="javascript:void(0)">  Bar  </a></li>
+                <li><a href="javascript:void(0)"> Garden and Outdoors  </a></li>
+                <li><a href="javascript:void(0)"> <strong>View All</strong>  <i class="fa fa-angle-right"></i> </a></li>
+            </ul>
+            <ul class="lifestle-product lastlfsty">
+            <li class="brandsname"> Featured</li>
+                <li><a href="javascript:void(0)"> Collectibles </a></li>
+                <li><a href="javascript:void(0)"> Bespoke  </a></li>
+                <li><a href="javascript:void(0)">  Art  </a></li>
+                <li><a href="javascript:void(0)">  &nbsp;  </a></li>
+                <li><a href="javascript:void(0)"> &nbsp;  </a></li>
+                <li><a href="javascript:void(0)"> <strong>View All</strong>  <i class="fa fa-angle-right"></i> </a></li>
+            </ul>
+            <a href="#" class="ViewAll"> View all </a> </li>
+          </ul>
+        </li>
+              <li> <a href="javascript:void()">MAGAZINE </a></li>
+      </ul>
+      <ul class="rightnav">
+        <li>
+          <div class="serch-home">
+            <form>
+              <input type="text" class="searchct">
+              <button type="submit" class="serchsbt"> <i class="fa fa-search"></i></button>
+            </form>
+          </div>
+        </li>
+        <li class="active"> <a href="javascript:void()"><i class="fa fa-user-circle-o"></i></a></li>
+      
+         <li class="dropdown"> 
+        <a class="dropdown-toggle " data-toggle="dropdown" href="javascript:void()"><i class="fa fa-bars"></i></a>
+          <ul class="dropdown-menu  " >
+            <li> 
+            <a  href="javascript:void()" class=""> ABOUT US</a> 
+            </li>
+             <li> 
+            <a  href="javascript:void()" class=""> How it Works</a> 
+            </li>
+             <li> 
+            <a  href="javascript:void()" class=""> Contact US</a> 
+            </li>
+            
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+ 
+
+
+<div class="container">    
+	<div class="progressbar position text-center" data-color="#c1c1c1, #766352"><h3>01</h3></div>
+	<div class="progressbar position text-center" data-percent="60" data-duration="1000" data-color="#c1c1c1, #766352"><h3>02</h3> </div>
+	<div class="progressbar position text-center" data-percent="20" data-color="#c1c1c1, #766352"><h3>03</h3></div>
+    <div class="progressbar position text-center" data-percent="33" data-color="#c1c1c1, #766352" data-label="lop"><h3>04</h3></div>
+	<input type="submit" value="reload">
+	<script>
+		$(".progressbar").loading();
+		$('input').on('click', function () {
+			 $(".progressbar").loading();
+		});
+	</script>
+</div>
+
+
+
+<style>
+.progressbar div span{ color:#766352;}
+</style>
+
+
+
+
+</div>
+
+<!--------------[ Middle Section ]-------------> 
+
+<!--------------[ footer Section ]-------------> 
+
+<footer id="footer">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-6 col-sm-6 col-xs-12">
+            	<ul class="footermenu">
+                  <li > <a href="#"> <i class="fa fa-lock"></i> <span>Privacy</span> </a> </li>
+                  <li > <a href="#"> <i class="fa fa-file-text-o" aria-hidden="true"></i> <span>Terms &amp; Conditions</span> </a>  </li>
+                  <li > <a href="#"> <i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Contact</span> </a> </li>
+               </ul>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="socials clearfix" >
+                <ul class="footermenu clearfix">
+                      <li> <a href="javascript:void(0)"> <i class="fa fa-facebook"></i> </a> </li>
+                      <li> <a href="javascript:void(0)"> <i class="fa fa-twitter"></i> </a> </li>
+                      <li> <a href="javascript:void(0)"> <i class="fa fa-pinterest"></i> </a> </li>
+                      <li> <a href="javascript:void(0)"> <i class="fa fa-youtube-play"></i> </a> </li>
+                      <li> <a href="javascript:void(0)"> <i class="fa fa-google-plus"></i> </a> </li>
+                      <li> <a href="javascript:void(0)"> <i class="fa fa-instagram"></i> </a> </li>
+                    </ul>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="copyright  clearfix">All contents &copy; copyright 2017 Mansionly.</div>
+        </div>
+    </div>
+</footer>  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ <!--  <script src="js/jquery.js"></script> 
+Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.min.js"></script> 
+<!--<script src="js/owl.carousel.min.js"></script> -->
+<!--<script src="js/custom.js"></script>-->  
+    
+    
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,70 @@
+/*body { background-color:#ECF0F1;}*/
+.position {
+  float: none;
+  margin: 0px;
+}
+
+.progressbar {
+  position: relative;
+  height: 200px;
+  width: 200px; 
+  margin: 0px auto 20px auto;
+}
+
+.progressbar div {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.progressbar small {
+    position: absolute;
+    top: 23%;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    left: 0px;
+    right: 0px;}
+
+.progressbar div span {
+  position: absolute;
+  font-family: Arial;
+  font-size: 25px;
+  line-height: 175px;
+  height: 175px;
+  width: 175px;
+  left: 12.5px;
+  top: 12.5px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.progressbar .background { background-color: #b3cef6; }
+
+.progressbar .rotate {
+  clip: rect(0 100px 200px 0);
+  background-color: #4b86db;
+}
+
+.progressbar .left {
+  clip: rect(0 100px 200px 0);
+  opacity: 1;
+  background-color: #b3cef6;
+}
+
+.progressbar .right {
+  clip: rect(0 100px 200px 0);
+  transform: rotate(180deg);
+  opacity: 0;
+  background-color: #4b86db;
+}
+ @keyframes 
+toggle {  0% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 1;
+}
+}

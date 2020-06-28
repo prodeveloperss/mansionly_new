@@ -1,0 +1,24 @@
+AddType text/x-component .htc
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	
+	# If a directory or a file exists, use it directly
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	# Otherwise forward it to index.php
+	RewriteRule . index.php
+</IfModule>
+
+<FilesMatch "\.(ttf|otf|eot|woff|font.css)$">
+  <IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+  </IfModule>
+</FilesMatch>
+
+AddType application/vnd.ms-fontobject  eot
+AddType font/truetype                  ttf
+AddType font/opentype                  otf
+AddType application/x-font-woff              woff
+
+AddType font/eot  eot
+AddType font/woff              woff

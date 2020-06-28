@@ -1,0 +1,1 @@
+MansionlyApp.config(function($routeProvider,$locationProvider){$routeProvider});
