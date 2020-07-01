@@ -145,3 +145,52 @@
 </section>
 
 <!--------------[ Banner Section ]-------------> 
+<!--second section-->
+<section class="mansionaly-way">
+<div class="container">
+  <div class="row">
+  <div class="col-sm-12">
+   <div class="head-group">
+   <h2 class="ttl">The Mansionly Way</h2>
+    <h4 class="sub-ttl">Global expertise personalized for you, with technology that redefines your experience!</h4>
+   </div>
+  </div>
+  </div>
+  <div class="row">
+    <div class=" mansinaly-way-secn">
+    <div class="col-sm-6">
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" width="" height="" src="https://www.youtube.com/embed/T5uMhIlxLyM?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+    <div class="col-sm-6 mansionaly-way-img">
+      <img src="https://freedesignfile.com/upload/2020/04/Logistics-cartoon-background-vector.jpg" class="">
+    </div>
+    </div>
+  </div>
+ 
+</div>
+</section>
+<section class="srch-panel">
+  <div class="container">
+  <div class="srch-panel-box">
+    <div class="CntUS-form clearfix ">
+      <span class="no-consult">Talk to our International Designers!</span>
+        <form name="get_started1" id="get_started1">
+          <input type="text" name="userinformation1" id="userinformation1" required="" class="form-control " placeholder="Share your number for a free design consultation!" oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');">
+          <button class="exploreBtn">Contact Me</button>
+        </form>
+      </div>
+  </div>
+  <div class="featured-links hide">
+    <ul class="ftr-links-list">
+      <li><a href="#">See Global  Design Ideas</a></li>
+      <li><a href="#">Estimate Your Budget</a></li>
+      <li><a href="#">Watch your Project Live</a></li>
+      
+    </ul>
+  </div>
+  </div>
+</div>
+
+</section>

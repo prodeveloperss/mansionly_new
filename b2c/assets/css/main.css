@@ -6421,8 +6421,16 @@ ul.ftr-links-list li a {
 	font-family: 'Roboto', sans-serif;
 }
 
-
-
+/**************mansionly way*************/
+.mansionaly-way{padding:35px 0}
+.mansionaly-way-img img{display: inline; max-height:320px}
+.mansionaly-way-img{ text-align: center;}
+.mansionaly-way .head-group {
+    margin: 40px 0;
+    display: inline-block;
+    width: 100%;
+}
+footer.NewHomepageFooter{display:none !important}
 /*************/
 @media(min-width: 1020px){
 	.header-right-menu ul li > a {
