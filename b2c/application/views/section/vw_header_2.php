@@ -478,8 +478,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <li class="ABhide"> <a target="_blank" href="">CONTACT US </a></li>-->
         </ul>
         
-      <ul class="rightnav">
-        <li>
+      <ul class="rightnav new-nav">
+      <li><a href="#">About Us</a></li>
+        <li><a href="#">Customer Login</a></li>
+        <li><a href="#">Join as Partner</a></li>
+        <li class="hide"> 
           <div class="serch-home">
            <form id="search_form">
               <input type="text" class="searchct" name="search_text" id="search_text" value="<?php echo $q_search; ?>">
@@ -487,7 +490,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
            </form>
           </div>
         </li>
-        <li class="active"> 
+        <li class="active hide"> 
             <a href="<?php if(!empty($_SESSION['customer_id'])){echo base_url().'users';}else{ echo base_url().'signin'; } ?>">
                 <i title="<?php if(!empty($_SESSION['customer_id'])){echo 'Profile';}else{ echo 'Sign In'; } ?>"  class="icon-login">
                 </i>

@@ -1,13 +1,21 @@
 <!--------------[ Banner Section ]------------->
 
 <section class="NewhomeBanner clearfix">
+  <div class="container">
   <div class="Banner_right clearfix">
-    <div class="CntUS-form clearfix ">
-      <form name="get_started1" id="get_started1">
-        <input type="text" name="userinformation1" id="userinformation1" required="" class="form-control " placeholder="Share your number for a free design consultation!" oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');">
-        <button class="exploreBtn">Contact Me</button>
-      </form>
+    <div class="sec-menu">
+      <h4 class="bold-head">Welcome Fine Living!</h4>
+      <ul class="sec-menu-list">
+           <li><a href="#">Residential</a></li>
+           <li><a href="#">CoLiving</a></li>
+           <li><a href="#">Corporate</a></li>
+           <li><a href="#">CoWOrking</a></li>
+           <li><a href="#">Hospitality</a></li>
+           <li><a href="#">Education</a></li>
+           <li><a href="#">View All</a></li>
+      </ul>
     </div>
+    <!--- Start Owl carousel----->
     <div  class="owl-carousel" id="MatchSlide">
      <div class="item"> 
      <a href="javascript:void(0);" onClick="$('.conntectUs').trigger('click');"> 
@@ -111,6 +119,29 @@
       </li>
     </ul>
   </div>
+</section>
+<section class="srch-panel">
+  <div class="container">
+  <div class="srch-panel-box">
+    <div class="CntUS-form clearfix ">
+      <span class="no-consult">Talk to our International Designers!</span>
+        <form name="get_started1" id="get_started1">
+          <input type="text" name="userinformation1" id="userinformation1" required="" class="form-control " placeholder="Share your number for a free design consultation!" oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');">
+          <button class="exploreBtn">Contact Me</button>
+        </form>
+      </div>
+  </div>
+  <div class="featured-links">
+    <ul class="ftr-links-list">
+      <li><a href="#">See Global  Design Ideas</a></li>
+      <li><a href="#">Estimate Your Budget</a></li>
+      <li><a href="#">Watch your Project Live</a></li>
+      
+    </ul>
+  </div>
+  </div>
+</div>
+
 </section>
 
 <!--------------[ Banner Section ]-------------> 
