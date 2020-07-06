@@ -121,6 +121,210 @@ $device_type =  $_COOKIE['device_type'];
     -----------Mobile Slider---end--------- 
     </div>
     </section> -->
+<section>
+    <div class="row">
+        <div class="container explore-proj">
+        <div class="head-group">
+            <h2 class="ttl">Our Expertise</h2>
+            <h4 class="sub-ttl">Display facts &amp; figure</h4>
+        </div>
+        
+            <div class="col-sm-4 text-center">
+                <p class="proj-no"><span>1200</span></p>
+                <p class="proj-ttl"><span>Number of Projects Delivered</span></p>
+            </div>
+            <div class="col-sm-4 text-center">
+                <p class="proj-no"><span>1200</span></p>
+                <p class="proj-ttl"><span>Number of Projects Delivered</span></p>
+            </div>
+            <div class="col-sm-4 text-center">
+                <p class="proj-no"><span>1200</span></p>
+                <p class="proj-ttl"><span>Number of Projects Delivered</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container">
+        <div class="head-group">
+            <h2 class="ttl">Explore Our Projects</h2>
+            
+        </div>
+        <div class="row">
+            <div class="col-sm-12 ">
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Residential</a></li>
+                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">CoLiving</a></li>
+                <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Corporate</a></li>
+                <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Coworking</a></li>
+                <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Hospitality</a></li>
+                <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Education & more</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="home">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul class="list-inline list-proj">
+                                <li><img src="https://media.gettyimages.com/photos/idyllic-home-with-covered-porch-picture-id479767332?s=612x612"></li>
+                                 <li><img src="https://freshome.com/wp-content/uploads/2018/09/contemporary-exterior.jpg"></li>
+                                 <li><img src="https://i.pinimg.com/originals/39/6f/c6/396fc65198c1cf3344ab51e3b5cb776c.jpg"></li>
+                                 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="profile">
+                <div class="row">
+                        <div class="col-sm-12">
+                            <ul class="list-inline list-proj">
+                               
+                                 <li><img src="https://freshome.com/wp-content/uploads/2018/09/contemporary-exterior.jpg"></li>
+                                 <li><img src="https://i.pinimg.com/originals/39/6f/c6/396fc65198c1cf3344ab51e3b5cb776c.jpg"></li>
+                                 <li><img src="https://i.pinimg.com/originals/39/6f/c6/396fc65198c1cf3344ab51e3b5cb776c.jpg"></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div role="tabpanel" class="tab-pane list-proj" id="messages">
+                <div class="row">
+                        <div class="col-sm-12">
+                            <ul class="list-inline list-proj">
+                            <li><img src="https://media.gettyimages.com/photos/idyllic-home-with-covered-porch-picture-id479767332?s=612x612"></li>
+                                <li><img src="https://media.gettyimages.com/photos/idyllic-home-with-covered-porch-picture-id479767332?s=612x612"></li>
+                                 <li><img src="https://freshome.com/wp-content/uploads/2018/09/contemporary-exterior.jpg"></li>
+                                 <li><img src="https://i.pinimg.com/originals/39/6f/c6/396fc65198c1cf3344ab51e3b5cb776c.jpg"></li>
+                                 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane list-proj" id="settings">
+                <div class="row">
+                        <div class="col-sm-12">
+                            <ul class="list-inline list-proj">
+                                <li><img src="https://media.gettyimages.com/photos/idyllic-home-with-covered-porch-picture-id479767332?s=612x612"></li>
+                                 <li><img src="https://freshome.com/wp-content/uploads/2018/09/contemporary-exterior.jpg"></li>
+                                 <li><img src="https://i.pinimg.com/originals/39/6f/c6/396fc65198c1cf3344ab51e3b5cb776c.jpg"></li>
+                                 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+        </div>
+        </div>
+    </div>
+</section>
+
+<!-----------START cALCULATE PROJECT--------------->
+<section class="secn">
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" width="" height="" src="https://www.youtube.com/embed/T5uMhIlxLyM?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                </div>
+            </div>
+                <div class="col-sm-6">
+                <h2 class="ttl-2">Calculate Your Project BOQ</h2>
+             <p class="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                 is nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                  sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+            </p>    
+            <p class="text-right"><a class="view-more" href="#">View More</a> </p>      
+                </div>
+        </div>
+        <div class="row mt40">
+        
+                <div class="col-sm-6">
+                    <h2 class="ttl-2">Watch Your Project Live</h2>
+                    <p class="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        is nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                        sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+                    </p>           
+                    <p class="text-left"><a class="view-more" href="#">View More</a> </p>      
+                </div>
+                <div class="col-sm-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" width="" height="" src="https://www.youtube.com/embed/gIx40hTqI0A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-----------END cALCULATE PROJECT--------------->
+
+<!-----------Start International designers----->
+<section>
+    <div class="row">
+        <div class="container explore-proj">
+        <div class="head-group">
+            <h2 class="ttl">International Designers</h2>
+        </div>
+        
+            <div class="col-sm-4 text-center">
+                <p class="proj-no"><img src="https://i.pinimg.com/originals/d5/8a/e3/d58ae3cc909202dc2a1775bc98a6c3f5.jpg"></p>
+                <p class="proj-ttl"><span>Name & Location</span></p>
+            </div>
+            <div class="col-sm-4 text-center">
+            <p class="proj-no"><img src="https://i.pinimg.com/originals/12/a1/e9/12a1e9ee561e0f57f72bc78ce5c848cf.jpg"></p>
+                <p class="proj-ttl"><span>Name & Location</span></p>
+            </div>
+            <div class="col-sm-4 text-center">
+            <p class="proj-no"><img src="https://files.propertywala.com/photos/2f/J524211906.front-view.134447l.jpg"></p>
+                <p class="proj-ttl"><span>Name & Location</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container">
+        <div class="head-group">
+            <h2 class="ttl">Our Brand Partners</h2>
+            
+        </div>
+        <div class="row">
+            <div class="col-sm-12 ">
+             <ul class="list-inline list-proj list-proj-five">
+                        <li><img src="https://media.gettyimages.com/photos/idyllic-home-with-covered-porch-picture-id479767332?s=612x612"></li>
+                            <li><img src="https://freshome.com/wp-content/uploads/2018/09/contemporary-exterior.jpg"></li>
+                            <li><img src="https://i.pinimg.com/originals/39/6f/c6/396fc65198c1cf3344ab51e3b5cb776c.jpg"></li>
+                            <li><img src="https://media.gettyimages.com/photos/idyllic-home-with-covered-porch-picture-id479767332?s=612x612"></li>
+                            <li><img src="https://freshome.com/wp-content/uploads/2018/09/contemporary-exterior.jpg"></li>                            
+                    </ul>
+                
+        </div>
+            
+        </div>
+        </div>
+    </div>
+</section>
+
+<!---- End int designers-------->
+<!-----------START cALCULATE PROJECT--------------->
+<section>
+    <div class="container">
+        <div class="row">
+      
+            
+        
+        </div>
+    </div>
+</section>
+<!-----------END cALCULATE PROJECT--------------->
+
+
 
 <?php if(!empty($magazine_list)) { ?>  
    <!--<section class="magezine-section magezine-section-new">-->
@@ -133,7 +337,7 @@ $device_type =  $_COOKIE['device_type'];
          <?php foreach($magazine_list as $key=>$row) { ?>
             
                     <?php if ($key=='0'){ ?>
-                        <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="newsfeed-colum"><!--< ?php echo date('Y/m/d',strtotime($row['post_date']));?>/< ?php echo $row['post_name'];?>-->
                                     <a target="_blank" href="<?php echo image_url;?>magazine/category/newsfeed/">
                                         <div class="newsf_img"><img src="<?php echo str_replace(array('http://'),'https://',$row['guid']);?>" alt="<?php echo $row['post_title'];?>"></div>
@@ -148,7 +352,7 @@ $device_type =  $_COOKIE['device_type'];
             
                     <?php if ($key=='1'){ ?>
                          
-                                <div class="col-md-5 col-sm-5 col-xs-12"> 
+                                <div class="col-md-6 col-sm-6 col-xs-12"> 
                                     <div class="newsfeed-colum"><!--< ?php echo date('Y/m/d',strtotime($row['post_date']));?>/< ?php echo $row['post_name'];?>-->
                                             <a target="_blank" href="<?php echo image_url;?>magazine/category/newsfeed/">
                                                 <div class="newsf_img"><img src="<?php echo str_replace(array('http://'),'https://',$row['guid']);?>" alt="<?php echo $row['post_title'];?>" ></div>
@@ -165,7 +369,7 @@ $device_type =  $_COOKIE['device_type'];
             
                      <?php if ($key=='2'){ ?>
             
-             <div class="col-md-4 col-sm-4 col-xs-12">
+             <div class="col-md-4 col-sm-4 col-xs-12 hide">
             	<div class="newsfeed-colum"><!--< ?php echo date('Y/m/d',strtotime($row['post_date']));?>/< ?php echo $row['post_name'];?>-->
                 	<a target="_blank" href="<?php echo image_url;?>magazine/category/newsfeed/">
                 	<div class="newsf_img"><img src="<?php echo str_replace(array('http://'),'https://',$row['guid']);?>" alt="<?php echo $row['post_title'];?>"></div>
@@ -181,7 +385,7 @@ $device_type =  $_COOKIE['device_type'];
             
                      <?php if ($key=='3'){ ?>
                      
-            <div class="col-md-5 col-sm-5 col-xs-12"> 
+            <div class="col-md-5 col-sm-5 col-xs-12 hide "> 
                 <div class="newsfeed-colum"><!--< ?php echo date('Y/m/d',strtotime($row['post_date']));?>/< ?php echo $row['post_name'];?>-->
                      <a target="_blank" href="<?php echo image_url;?>magazine/category/newsfeed/">
                 	<div class="newsf_img"><img src="<?php echo str_replace(array('http://'),'https://',$row['guid']);?>" alt="<?php echo $row['post_title'];?>"></div>
@@ -197,7 +401,7 @@ $device_type =  $_COOKIE['device_type'];
             
                      <?php if ($key=='4'){ ?>
             
-            <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="col-md-4 col-sm-4 col-xs-12 hide">
             	<div class="newsfeed-colum"><!--< ?php echo date('Y/m/d',strtotime($row['post_date']));?>/< ?php echo $row['post_name'];?>-->
                     <a target="_blank" href="<?php echo image_url;?>magazine/category/newsfeed/">
                 	<div class="newsf_img"><img src="<?php echo str_replace(array('http://'),'https://',$row['guid']);?>" alt="<?php echo $row['post_title'];?>"></div>
@@ -214,7 +418,7 @@ $device_type =  $_COOKIE['device_type'];
                     <?php if ($key=='5'){ ?>
             
              
-             <div class="col-md-3 col-sm-3 col-xs-12">
+             <div class="col-md-3 col-sm-3 col-xs-12 hide">
             	<div class="newsfeed-colum"><!--< ?php echo date('Y/m/d',strtotime($row['post_date']));?>/< ?php echo $row['post_name'];?>-->
                     <a target="_blank" href="<?php echo image_url;?>magazine/category/newsfeed/">
                 	<div class="newsf_img"><img src="<?php echo str_replace(array('http://'),'https://',$row['guid']);?>" alt="<?php echo $row['post_title'];?>"></div>
@@ -1010,7 +1214,54 @@ $device_type =  $_COOKIE['device_type'];
 </div>
 
 <!--------------[ Middle Section ]-------------> 
+<!------------footer--------------------------->
+<section class="secn footer">
+    <div class="container">
+      <div class="row">
 
+        <div class="col-sm-3">
+               <img src="http://localhost:8219/B2C/assets/img/newhomelogo.png"> 
+               <ul class="list-ft-menu">
+                   <li><a href="#">How we work</a></li>
+                   <li><a href="#">Estimate Calculator</a></li>
+                   <li><a href="#">Watch your Project Live</a></li>
+                   <li><a href="#">Contact Us</a></li>
+               </ul>
+         </div> 
+         <div class="col-sm-3">
+               <ul class="list-ft-menu">
+                   <li><a href="#">Company</a></li>
+                   <li><a href="#">Projects</a></li>
+                   <li><a href="#">Global Designers</a></li>
+                   <li><a href="#">The Mansionly Way</a></li>
+                   <li><a href="#">Furniture & Decor</a></li>
+                   <li><a href="#">Insights</a></li>
+                   
+               </ul>
+         </div> 
+         <div class="col-sm-3">
+               
+               <ul class="list-ft-menu">
+                   <li><a href="#">Become a Design Partner</a></li>
+                   <li><a href="#">Become a Project Partner</a></li>
+                   <li><a href="#">FAQs</a></li>
+                   <li><a href="#">Office</a></li>
+                   <li><a href="#">Privacy Policy</a></li>
+               </ul>
+         </div> 
+         <div class="col-sm-3">
+               
+               <ul class="list-ft-menu">
+                   
+                   <li><a href="#">Mobile Apps</a></li>
+                   <li><a href="#"><img src=""></a></li>
+                   <li><a href="#">Privacy Policy</a></li>
+               </ul>
+         </div>    
+      </div>
+    </div>          
+</section>
+<!------------End footer--------------------------->
 <!--------------[ SEO Section ]-------------> 
 <script type="application/ld+json">
     
