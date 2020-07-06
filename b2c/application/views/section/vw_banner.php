@@ -19,14 +19,14 @@
     <div  class="owl-carousel" id="MatchSlide">
      <div class="item"> 
      <a href="javascript:void(0);" onClick="$('.conntectUs').trigger('click');"> 
-      <img  class="hidden-xs" src="<?php echo base_url().SitePath ; ?>assets/img/mansionly_des_banner_01.jpg?v=1.9"  alt="banner"> </a>
+      <img  class="hidden-xs" src="<?php echo base_url().SitePath ; ?>assets/img/banner/banner2.jpg?v=1.9"  alt="banner"> </a>
       
        <a href="<?php echo base_url(); ?>lead-generation-form">
-      <img class="hidden-lg hidden-md visible-xs" src="<?php echo base_url().SitePath ; ?>assets/img/mansionly_mob_banner_01.jpg?v=1.9"  alt="banner"> </a> 
+      <img class="hidden-lg hidden-md visible-xs" src="<?php echo base_url().SitePath ; ?>assets/img/banner/banner2.jpg?v=1.9"  alt="banner"> </a> 
      </div>
         
         
-      <div class="item"> 
+     <!--  <div class="item"> 
       <a href="javascript:void(0);" onClick="$('.conntectUs').trigger('click');">
        <img  class="hidden-xs" src="<?php echo base_url().SitePath ; ?>assets/img/mansionly_des_banner_02.jpg?v=1.9"  alt="banner"> </a>
        
@@ -34,7 +34,7 @@
         <img class="hidden-lg hidden-md visible-xs" src="<?php echo base_url().SitePath ; ?>assets/img/mansionly_mob_banner_02.jpg?v=1.9"  alt="banner"> </a> 
         </div>
         
-<!--      <div class="item"> 
+     <div class="item"> 
       <a href="javascript:void(0);" onClick="$('.conntectUs').trigger('click');"> 
       <img  class="hidden-xs" src="<?php echo base_url().SitePath ; ?>assets/img/mansionly_des_banner_03.jpg?v=1.9"  alt="banner"> </a>
       
@@ -42,14 +42,16 @@
        <img class="hidden-lg hidden-md visible-xs" src="<?php echo base_url().SitePath ; ?>assets/img/mansionly_mob_banner_03.jpg?v=1.9"  alt="banner" /> </a> 
        </div>-->
        
-      <div class="item"> 
+     
+
+        <div class="item"> 
       <a href="javascript:void(0);" onClick="$('.conntectUs').trigger('click');">
        <img  class="hidden-xs" src="<?php echo base_url().SitePath ; ?>assets/img/mansionly_des_banner_04.jpg?v=1.9"  alt="banner"> </a> 
        
        <a  href="<?php echo base_url(); ?>lead-generation-form"> 
        <img class="hidden-lg hidden-md visible-xs" src="<?php echo base_url().SitePath ; ?>assets/img/mansionly_mob_banner_04.jpg?v=1.9"  alt="banner" /> </a>
       </div>
-        
+       <!--  
       <div class="item"> 
       <a href="javascript:void(0);" onClick="$('.conntectUs').trigger('click');">
        <img  class="hidden-xs" src="<?php echo base_url().SitePath ; ?>assets/img/mansionly_des_banner_05.jpg?v=1.9"  alt="banner"> </a> 
@@ -97,6 +99,7 @@
        <a  href="<?php echo base_url(); ?>lead-generation-form"> 
        <img class="hidden-lg hidden-md visible-xs" src="<?php echo base_url().SitePath ; ?>assets/img/mansionly_mob_banner_10.jpg?v=1.9"  alt="banner" /> </a> 
       </div>
+      -->
       
     </div>
   </div>

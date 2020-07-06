@@ -6274,7 +6274,8 @@ top: 0px;width: 100%;height: 100%; opacity:0; transition:all linear 0.3s;}*/
 /**** Header Start**********/
 .header-menu{height:100px}
 .NewHomepage_wrapper .header-menu {
-    background: #f7f2dc;
+	/*background: #f7f2dc;*/
+	background: #ffffff;
 }
 .logo img {
 	width: auto;
@@ -6442,7 +6443,7 @@ footer.NewHomepageFooter{display:none !important}
     position: fixed;
 	bottom: 10px;
 	z-index: 9;
-	display:none;
+
 
 }
 
@@ -6467,7 +6468,8 @@ p.proj-ttl span {
     margin: 10px 0;
     max-height: 300px;
     min-height: 300px;
-    height: 200px;
+	height: 250px;
+	padding-top: 10px;
 }
 ul.nav.nav-tabs {
     border: none;
@@ -6488,7 +6490,7 @@ ul.nav.nav-tabs li a {
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     border-width: 0 0 2px 0 !important;
     border-style: solid;
-    border-color: #f90;
+    border-color: #b16c2c;
 }
 
 section.secn {
@@ -6503,7 +6505,7 @@ h2.ttl-2 + p {
 }
 .mt40{margin-top:40px}
 a.view-more {
-    background: #5a4e41;
+    background: #98602d;
     color: #fff;
     padding: 7px 20px;
     border-radius: 2px;
@@ -6519,7 +6521,7 @@ ul.list-proj-five li img{
     border-radius: 5px;
 }
 section.secn.footer {
-    background: #3f381c;
+    background: #48351e;
     color: #fff;
 }
 
@@ -6542,6 +6544,53 @@ ul.list-ft-menu li a {
     max-width: 180px;
     margin-bottom: 16px;
 }
+
+
+.list-client li{ width:20%; display:inline-block; float:left}
+.list-client li img{    width: 100%;
+    height: 80px;
+    border:5px solid #f7e5d5;
+    padding: 10px;} 
+
+
+	.conntectUs {
+		background: #98602d;
+		color: #fff;
+		font-size: 12px;
+		border: 1px solid #bf7939;
+		position: fixed;
+		bottom: 70px;
+		right: 10px;
+		padding: 7px 10px;
+		
+	}
+	.conntectUs:hover, .conntectUs:focus {
+		background: #98602d;
+		color: #98602d;
+		border: 1px solid #98602d;
+		border: 1px solid #98602d;
+	}
+	.news-caption {
+		background: #fff;
+		top: 67%;
+		padding: 6px;
+	}
+	
+	.news-caption h3 {
+		text-shadow: none !important;
+		color: #333;
+	}
+	
+	.newsfeed-colum {
+		border: 1px solid #ccc;
+		border-radius: 7px;
+	}
+	
+	.newsfeed_section .news-caption p {
+		text-shadow: none !important;
+		color: #333;
+		margin-bottom: 11px;
+	}
 /*************/
 @media(min-width: 1020px){
 	.header-right-menu ul li > a {
