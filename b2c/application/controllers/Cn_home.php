@@ -93,7 +93,7 @@ class Cn_home extends CI_Controller {
         /* [End::Assign limit in session for back activity] */ else {
             $limit = 12;
         }
-
+        $limit=1;
         /* All */
         $data['partials']['offset_all'] = $limit;
         $data['partials']['execution_all_list'] = $this->Md_execution->getAllExecutionPortfolio($offset, $limit);
@@ -139,7 +139,15 @@ class Cn_home extends CI_Controller {
         $data['partials']['offset_retail'] = $limit;
         $data['partials']['execution_retail_list'] = $this->Md_execution->getExecutionSamplePortfolio('retail', $offset, $limit);
         $data['partials']['execution_retail_count'] = $this->Md_execution->getExecutionPortfolioCount('retail');
-
+        $data['partials']['customerFavoriteExecutions']=array();
+         if(!empty($_SESSION['customer_id'])){
+             $table = 'customer_favorites_list';
+             $condition = array('customer_id'=>$_SESSION['customer_id'],'favorites_type'=>'executionportfolio');
+             $result = $this->Md_database->getData($table,'favorites_record_id',$condition,'','');
+             foreach ($result as $row){
+                 $data['partials']['customerFavoriteExecutions'][]=$row['favorites_record_id'];
+             }
+        }
         $data['partials']['execution_flag'] = $execution_flag;
         $this->load->view('vw_home', $data);
     }
