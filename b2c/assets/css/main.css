@@ -1211,7 +1211,7 @@ a:focus {
 }
 .designer-sect {
     padding: 0px 0px 60px 0px; 
-    background:#f3ede8;
+    background:#fff;
 }
 .designer-profile-top {
 	padding: 30px 0px;
@@ -6423,7 +6423,7 @@ ul.ftr-links-list li a {
 	font-family: 'Roboto', sans-serif;
 }
 
-/**************mansionly way*************/
+/**************mansionly way | anil*************/
 .mansionaly-way{padding:35px 0}
 .mansionaly-way-img img{display: inline; max-height:320px}
 .mansionaly-way-img{ text-align: center;}
@@ -6443,8 +6443,6 @@ footer.NewHomepageFooter{display:none !important}
     position: fixed;
 	bottom: 10px;
 	z-index: 9;
-
-
 }
 
 p.proj-no span {
@@ -6591,7 +6589,7 @@ ul.list-ft-menu li a {
 		color: #333;
 		margin-bottom: 11px;
 	}
-/*************/
+/****** ANil *******/
 @media(min-width: 1020px){
 	.header-right-menu ul li > a {
 		padding: 25px 10px 0px 14px !important;
@@ -6653,4 +6651,72 @@ section#randomBlockId {
 
 section#containLoader-bg {
     display: none !important;
+}
+
+
+/********Designers***********/
+.Headind-style .main-ttl{    font-weight: bold;
+    font-size: 26px;
+	margin: 20px 0 10px;
+color:#473720;
+}
+
+ul.list-inline.list-designers {
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+}
+
+ul.list-inline.list-designers li {
+    display: block;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.dd-designers {
+    display: inline-block;
+    width: 220px;
+    float: left;
+}
+
+.dd-designers select.form-conttrol {
+    width: 100%;
+    border: 2px solid #595959;
+    padding: 9px;
+    font-weight: bold;
+}
+
+.dd-designers-txt {
+    display: inline-block;
+    width: 400px;
+    float: left;
+}
+
+.dd-designers-txt input {
+    width: 100%;
+    padding: 9px 7px;
+    text-align: center;
+    border-width: 2px 2px 2px 0px;
+    border-style: solid;
+    border-color: #595959;
+}
+
+.designer-sect .container{ width:1230px}
+
+/****** Sectors*********/
+.designer-profile-sect .nav.nav-tabs {
+    margin-bottom: 50px;
+    margin-top: 15px;
+    padding: 0px 0;
+}
+ul.nav.nav-tabs li {
+    min-width: 7%;
+    text-align: center;
+}
+ul.nav.nav-tabs li a {
+    font-size: 15px;
+    font-weight: 700;
+	color: #333;
+	padding: 10px 13px;
 }

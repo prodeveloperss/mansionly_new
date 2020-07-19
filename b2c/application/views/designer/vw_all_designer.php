@@ -46,11 +46,34 @@ $device_type =  $_COOKIE['device_type'];
 <div class="col-sm-12">
 	<div class="Headind-style">
             <!--<h3>Designers</h3>--> 
-            <h1 style="font-weight: 400;font-size: 24px">Best Interior Designers</h1>
+            <h1 class="main-ttl">Best Interior Designers</h1>
         </div>
 </div>
 </div>
 </div>
+
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+	<ul class="list-inline list-designers">
+            <li>
+                <div class="dd-designers">
+                    <select class="form-conttrol">
+                        <option>All categories</option>
+                        <option>Top Rated Designers </option>
+                        
+                    </select>
+                </div>
+                <div class="dd-designers-txt">
+                    <input  type="text" placeholder="Search By Name">
+                </div>
+            </li>
+            <li></li>
+    </ul>
+</div>
+</div>
+</div>
+
 	<div class="container">
     <div class="row">
     <hr>
@@ -68,7 +91,7 @@ $device_type =  $_COOKIE['device_type'];
 	  $profile_pic_port = $this->Md_designer->getDesignerTopRatedPortfolio($row['id']);
 
          ?>
-        <div class="col-md-4 col-sm-6 col-xs-12 extraPd">
+        <div class="col-md-3 col-sm-6 col-xs-12 extraPd">
            <div class="design-box clearfix">
            <a class="likeico" href="javascript:void(0);" >
                <i id="<?php echo "designer".$row['id']; ?>" class="fa fa-heart <?php if(in_array($row['id'], $customerFavorites)){echo ' heartRed';}?>" aria-hidden="true" onclick="saveFavorite('Designer','designer',<?php echo $row['id'];?> );"> </i>
@@ -107,7 +130,7 @@ $device_type =  $_COOKIE['device_type'];
 //          echo "<pre>";
 //          print_r($profile_pic_theme);die;
          ?>
-        <div class="col-md-4 col-sm-6 col-xs-12 extraPd">
+        <div class="col-md-3 col-sm-6 col-xs-12 extraPd">
            <div class="design-box clearfix">
                <a class="likeico" href="javascript:void(0);" ><i id="<?php echo 'designer'.$row['id'];?>" class="fa fa-heart <?php if(in_array($row['id'], $customerFavorites)){echo ' heartRed';}?>" aria-hidden="true" onclick="saveFavorite('Designer','designer',<?php echo $row['id'];?> );"></i></a>        
                <a href="<?php echo base_url().strtolower(urlencode(str_replace($url_replace_char_array, '-',$row['designer_name']))).'/designer/'.$row['id'].'?q=d';?>">

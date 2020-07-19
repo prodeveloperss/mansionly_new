@@ -118,7 +118,7 @@ $device_type =  $_COOKIE['device_type'];
         <div class="row">
           <div class="col-sm-12">
             <div class="Headind-style">
-              <h1>Industry Sectors where we operate</h1>
+              <h1 class="main-ttl">Interior Projects By Sectors</h1>
             </div>
           </div>
         </div>
