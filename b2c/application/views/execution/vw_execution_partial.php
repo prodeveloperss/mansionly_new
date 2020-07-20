@@ -539,9 +539,10 @@ $(document).ajaxComplete(function () {
 
 <!--[start:: Load more for PR]-->
 <script type="text/javascript">
-// $(document).ready(function(){
-//     load_more();
-// });
+$(document).ready(function(){
+    //load_more('all');
+    $( "#all_nav" ).trigger( "click" );
+});
 $('.loadmore_common').mouseenter(function(e){
     load_more(e.target.dataset.flag);
 });
